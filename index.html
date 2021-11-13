@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Visitenkarte Martin Löffler</title>
+  </head>
+  <body>
+    <div onload="download()"></div>
+    <a
+      id="dl"
+      style="display: none;"
+      href="https://storage.googleapis.com/visitenkarte/card_martin_loeffler.vcf"
+      download
+      >Download</a
+    >
+
+    <script>
+      (function download() {
+        document.getElementById("dl").click();
+      })();
+    </script>
+  </body>
+</html>
